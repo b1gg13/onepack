@@ -3,23 +3,21 @@ h2,
 h4,
 p {
     font-family: 'Lexend Deca', sans-serif;
+    color: white;
 }
 
 
 h1 {
     font-size: 50px;
-    color: blue;
     margin: 0px;
 }
 
 h2 {
     font-size: 30px;
-    color: black;
 }
 
 h4 {
     font-size: 15px;
-    color: crimson;
 
 }
 
@@ -53,13 +51,14 @@ header h1 {
 
 .our_story {
     background-color: aqua;
-    color: black;
     margin: 0 auto;
 
 }
 
 .vizmiz {
-    background-color: palevioletred;
+    background-color: purple;
+    display: inline-flex;
+    justify-content: center;
 }
 
 .vision,
@@ -68,8 +67,11 @@ header h1 {
 }
 
 .vision p,
-{
-color: white
+.mission p,
+.mission h4,
+.vision h4 {
+    color: white;
+    text-align: center;
 }
 
 .vizmiz p {
@@ -78,4 +80,31 @@ color: white
 
 .merch_container {
     background-color: black;
+    display: flex;
+}
+
+.objectives {
+    background-color: black;
+    padding: 0 100px;
+    display: flex;
+    flex-direction: ;
+
+}
+
+.object_title {
+    display: flex;
+    rotate: -90deg;
+    margin: 0 auto;
+}
+
+.objectives p {
+    color: black;
+}
+
+.object {
+    background-color: rgb(255, 35, 75);
+    height: 250px;
+    width: 200px;
+    border: 1px solid black;
+    text-align: center;
 }
