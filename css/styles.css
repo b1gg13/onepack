@@ -1,8 +1,12 @@
+* {
+    text-decoration: none;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
 h1,
 h2,
 h4,
 p {
-    font-family: 'Lexend Deca', sans-serif;
     color: white;
 }
 
@@ -10,14 +14,17 @@ p {
 h1 {
     font-size: 50px;
     margin: 0px;
+    font-weight: 700;
 }
 
 h2 {
     font-size: 30px;
+    font-weight: 700;
 }
 
 h4 {
     font-size: 15px;
+    font-weight: 200;
 
 }
 
@@ -25,37 +32,86 @@ p {
     margin-top: 0px;
     margin-bottom: 0px;
     line-height: 1.4;
+    font-weight: 400;
 }
+
+
+.navbar {
+    background: black;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.navdiv {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.opi_logo {
+    font-size: 35px;
+    font-weight: 500;
+    color: palevioletred;
+}
+
+.opi_logo a {
+    color: palevioletred;
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+
+}
+
+li a {
+    color: palevioletred;
+    font-size: 20px;
+    font-weight: 400;
+    margin-right: 20px;
+}
+
+button {
+    background-color: palevioletred;
+    margin-left: 10px;
+    border-radius: 10px;
+    padding: 10px;
+    width: 90px;
+}
+
+button a {
+    color: black;
+    font-weight: 400;
+    font-size: 15px;
+}
+
 
 header,
 section {
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 100px;
+    padding-bottom: 100px;
     width: 100vw;
-    height: 80vh;
+    height: 100vh;
     border: 5px solid orangered;
 }
 
 header {
-    background-color: rgb(188, 53, 241);
+    background-color: palevioletred;
 }
 
 header h1,
-h4 {
+header h4 {
     color: black;
 }
 
-header h1 {
-    position: relative;
-}
 
-.our_story {
+.opi_story {
     background-color: aqua;
     margin: 0 auto;
 
 }
 
-.vizmiz {
+.opi_goal {
     background-color: purple;
     display: inline-flex;
     justify-content: center;
@@ -74,7 +130,7 @@ header h1 {
     text-align: center;
 }
 
-.vizmiz p {
+.opi_goal p {
     font: white;
 }
 
@@ -87,14 +143,14 @@ header h1 {
     background-color: black;
     padding: 0 100px;
     display: flex;
-    flex-direction: ;
+
 
 }
 
 .object_title {
     display: flex;
     rotate: -90deg;
-    margin: 0 auto;
+    margin: auto;
 }
 
 .objectives p {
@@ -103,8 +159,22 @@ header h1 {
 
 .object {
     background-color: rgb(255, 35, 75);
-    height: 250px;
-    width: 200px;
+    height: 200px;
+    width: 300px;
     border: 1px solid black;
     text-align: center;
+    margin: auto;
+}
+
+.buy_merch {
+    background: black;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.merch_wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: aqua;
 }
