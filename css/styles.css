@@ -23,7 +23,7 @@ h2 {
 }
 
 h4 {
-    font-size: 15px;
+    font-size: 20px;
     font-weight: 200;
 
 }
@@ -106,37 +106,34 @@ header h4 {
 
 
 .opi_story {
-    background-color: aqua;
+    background-color: black;
     margin: 0 auto;
 
 }
 
 .opi_goal {
-    background-color: purple;
+    background-color: white;
     display: inline-flex;
-    justify-content: center;
+    justify-content: space-between;
 }
 
 .vision,
 .mission {
-    background-color: black;
+    background-color: aqua;
+    width: 200px;
+    height: 200px;
 }
 
 .vision p,
 .mission p,
 .mission h4,
 .vision h4 {
-    color: white;
+    color: black;
     text-align: center;
 }
 
 .opi_goal p {
-    font: white;
-}
-
-.merch_container {
-    background-color: black;
-    display: flex;
+    font: black;
 }
 
 .objectives {
@@ -166,6 +163,15 @@ header h4 {
     margin: auto;
 }
 
+.opi_merch {
+    background-color: black;
+    display: flex;
+}
+
+.merch_win h2 {
+    color: palevioletred;
+}
+
 .buy_merch {
     background: black;
     padding-left: 15px;
@@ -173,8 +179,54 @@ header h4 {
 }
 
 .merch_wrapper {
+    background-color: palevioletred;
+    display: flex;
+    flex-direction: row;
+    padding: 0.5em;
+    margin: 25vh auto 0;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.merch_wrapper h4 {
+    color: black;
+}
+
+.merch {
+    background-color: aqua;
+    margin: 0.5em;
+}
+
+.opi_donations {
+    display: flex;
+    flex-direction: row;
+    padding: 1em;
+    align-items: center;
+}
+
+.don_title {
+    background-color: aqua;
+    text-align: center;
+    transform: rotate(-90deg);
+}
+
+.don_title h2,
+.don_title h4 {
+    color: black;
+}
+
+.don_wrapper {
+    background-color: black;
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    background-color: aqua;
+    padding: 0.5em;
+}
+
+.don {
+    background-color: palevioletred;
+
+}
+
+.don h4 {
+    color: white;
 }
