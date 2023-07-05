@@ -51,11 +51,11 @@ p {
 .opi_logo {
     font-size: 35px;
     font-weight: 500;
-    color: palevioletred;
+    color: rgb(255, 35, 75);
 }
 
 .opi_logo a {
-    color: palevioletred;
+    color: rgb(255, 35, 75);
 }
 
 li {
@@ -65,14 +65,14 @@ li {
 }
 
 li a {
-    color: palevioletred;
+    color: rgb(255, 35, 75);
     font-size: 20px;
     font-weight: 400;
     margin-right: 20px;
 }
 
 button {
-    background-color: palevioletred;
+    background-color: rgb(255, 35, 75);
     margin-left: 10px;
     border-radius: 10px;
     padding: 10px;
@@ -92,11 +92,11 @@ section {
     padding-bottom: 100px;
     width: 100vw;
     height: 100vh;
-    border: 5px solid orangered;
+    border: 5px solid rgb(217, 255, 0);
 }
 
 header {
-    background-color: palevioletred;
+    background-color: rgb(255, 35, 75);
 }
 
 header h1,
@@ -113,15 +113,17 @@ header h4 {
 
 .opi_goal {
     background-color: white;
-    display: inline-flex;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1px;
+    height: 50vh;
 }
 
 .vision,
 .mission {
     background-color: aqua;
-    width: 200px;
-    height: 200px;
+    width: 50vw;
+    height: 45vh;
 }
 
 .vision p,
@@ -138,15 +140,14 @@ header h4 {
 
 .objectives {
     background-color: black;
-    padding: 0 100px;
-    display: flex;
-
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1px;
 
 }
 
 .object_title {
-    display: flex;
-    rotate: -90deg;
+    transform: rotate(-90 deg);
     margin: auto;
 }
 
@@ -166,10 +167,11 @@ header h4 {
 .opi_merch {
     background-color: black;
     display: flex;
+    height: 50vh;
 }
 
 .merch_win h2 {
-    color: palevioletred;
+    color: rgb(255, 35, 75);
 }
 
 .buy_merch {
@@ -179,13 +181,10 @@ header h4 {
 }
 
 .merch_wrapper {
-    background-color: palevioletred;
-    display: flex;
-    flex-direction: row;
-    padding: 0.5em;
-    margin: 25vh auto 0;
-    flex-wrap: wrap;
-    align-items: center;
+    background-color: rgb(255, 35, 75);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
 }
 
 .merch_wrapper h4 {
@@ -197,17 +196,50 @@ header h4 {
     margin: 0.5em;
 }
 
+.opi_what {
+    background-color: black;
+
+}
+
+.opi_what h2 {
+    color: rgb(255, 35, 75);
+}
+
+.opi_why {
+    background-color: aqua;
+}
+
+.opi_why h2,
+.opi_why h4 {
+    color: black;
+}
+
+.why {
+    background-color: black;
+}
+
+.why p {
+    color: rgb(255, 35, 75);
+}
+
+.opi_FnD {
+    background-color: rgb(255, 35, 75);
+}
+
+.opi_donate {
+    background-color: black;
+}
+
 .opi_donations {
-    display: flex;
-    flex-direction: row;
-    padding: 1em;
-    align-items: center;
+    display: grid;
+    grid-template-columns: 200px 1fr;
+
+
 }
 
 .don_title {
     background-color: aqua;
-    text-align: center;
-    transform: rotate(-90deg);
+    transform: rotate(90deg);
 }
 
 .don_title h2,
@@ -217,16 +249,34 @@ header h4 {
 
 .don_wrapper {
     background-color: black;
-    display: flex;
-    align-items: center;
-    padding: 0.5em;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 2px;
+
 }
 
 .don {
-    background-color: palevioletred;
-
+    background-color: rgb(255, 35, 75);
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    text-align: center;
 }
 
 .don h4 {
     color: white;
+}
+
+.calender {
+    background-color: rgb(255, 35, 75);
+
+}
+
+.c_title {
+    color: black;
+    transform: rotate(90deg);
+}
+
+.dates {
+    background-color: black;
 }
