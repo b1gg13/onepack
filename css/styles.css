@@ -267,13 +267,23 @@ header h4 {
     color: white;
 }
 
-.calender {
+.str .calender {
+    grid-template-columns: 1fr 150px;
+    display: grid;
+
     background-color: rgb(255, 35, 75);
 
 }
 
+.log {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 2px;
+}
+
 .c_title {
     color: black;
+    width: ;
     transform: rotate(90deg);
 }
 
