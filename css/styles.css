@@ -267,7 +267,7 @@ header h4 {
     color: white;
 }
 
-.str .calender {
+.calender {
     grid-template-columns: 1fr 150px;
     display: grid;
 
@@ -283,7 +283,6 @@ header h4 {
 
 .c_title {
     color: black;
-    width: ;
     transform: rotate(90deg);
 }
 
