@@ -40,6 +40,7 @@ p {
     background: black;
     padding-left: 15px;
     padding-right: 15px;
+    width: 98vw;
 }
 
 .navdiv {
@@ -88,12 +89,13 @@ button a {
 
 header,
 section {
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
     width: 100vw;
     height: 100vh;
     border: 5px solid rgb(217, 255, 0);
 }
+
 
 header {
     background-color: rgb(255, 35, 75);
